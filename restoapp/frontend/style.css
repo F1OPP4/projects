@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url("./fonts/Comfortaa-VariableFont_wght.ttf") format("truetype");
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 1440px;
+}
+
+body {
+    min-width: 1440px;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #222222;
+}
+
+.container {
+    width: 1312px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.caption {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+/* Шапка сайта */
+
+.header {
+    width: 100%;
+    min-width: 1440px;
+    height: 72px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #FEDD2C, #F9C201);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+    width: min(1312px, calc(100% - 128px));
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.logo img {
+    display: block;
+    width: 125px;
+    height: auto;
+}
+
+
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-list a {
+    color: #222222;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.phone {
+    color: #222222;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+.header .container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 64px;
+}
+
+
+/* Секция меню */
+
+.menu-section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.menu-section h1 {
+    margin: 0 0 24px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.menu-cards {
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-card {
+    flex: 0 0 304px;
+    height: 304px;
+    overflow: hidden;
+    border-radius: 16px;
+    background-color: #555555;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu-card a {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.75),
+        transparent 70%
+    );
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.pizza {
+    background-image: url("./images/pizza.jpg");
+}
+
+.soup {
+    background-image: url("./images/soup.png");
+}
+
+.hot {
+    background-image: url("./images/hot.jpg");
+}
+
+.salad {
+    background-image: url("./images/salad.jpg");
+}
