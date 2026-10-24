@@ -171,3 +171,34 @@ body {
 .salad {
     background-image: url("./images/salad.jpg");
 }
+.dishes-section {
+    margin-top: 48px;
+}
+
+.dishes-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    padding: 0;
+    list-style: none;
+}
+
+.dishes-list li {
+    padding: 24px;
+    border-radius: 12px;
+    background: #f5f5f5;
+}
+
+.dish-card {
+    padding: 20px;
+    border-radius: 12px;
+    background: #f5f5f5;
+}
+
+.dish-card h3 {
+    margin-top: 0;
+}
+
+.dish-card p:last-child {
+    font-weight: 700;
+}
